@@ -6,10 +6,7 @@ class ImageCard extends React.Component {
 
     return (
       <div>
-        <img
-          alt={description}
-          src={urls.regular}
-        />
+        <img alt={description} src={urls.regular} />
       </div>
     );
   }
