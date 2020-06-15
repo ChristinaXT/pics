@@ -16,11 +16,11 @@ class App extends React.Component {
 
   render() {
    return (
-     <div className="ui container" style={{ marginTop: '20px' }}>
-     <SearchBar onSubmit={this.onSearchSubmit} />
-     <ImageList />
-     </div>
-   );
+      <div className="ui container" style={{ marginTop: '20px' }}>
+       <SearchBar onSubmit={this.onSearchSubmit} />
+       <ImageList images={this.state.images} />
+      </div>
+    );
   }
 }
 
